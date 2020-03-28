@@ -2,16 +2,16 @@
 class Demo < Formula
   desc "Jenkins CLI allows you manage your Jenkins as an easy way"
   homepage "https://github.com/jenkins-zh/jenkins-cli"
-  version "0.0.9"
+  version "0.0.10"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/LinuxSuRen/go-demo/releases/download/v0.0.9/go-demo_0.0.9_Darwin_x86_64.tar.gz"
-    sha256 "955c3ab3e54e933414015987e77d59eb5e4e61dbd4b3abf517730c60489c9b29"
+    url "https://github.com/LinuxSuRen/go-demo/releases/download/v0.0.10/go-demo_0.0.10_Darwin_x86_64.tar.gz"
+    sha256 "676e6a2534cdb0748c22f48bd0532ac92167e7d7fc7a16102979dba1ee5214e7"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/LinuxSuRen/go-demo/releases/download/v0.0.9/go-demo_0.0.9_Linux_x86_64.tar.gz"
-      sha256 "09715ae39d51840614ecb4fbeb83ec5d116418d8a985f0c060ed8d05bf5d80fe"
+      url "https://github.com/LinuxSuRen/go-demo/releases/download/v0.0.10/go-demo_0.0.10_Linux_x86_64.tar.gz"
+      sha256 "1a9930499d8af8d16c5429bf3fac702b361a1dfce734be4fd4d441a89bd43d52"
     end
   end
 
